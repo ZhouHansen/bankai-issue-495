@@ -1,6 +1,6 @@
 {
-  "name": "hh",
-  "short_name": "hh",
+  "name": "bankai-issue-495",
+  "short_name": "bankai-issue-495",
   "description": "test",
   "start_url": "/",
   "display": "standalone",
