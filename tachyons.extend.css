@@ -1,0 +1,81 @@
+/* FONT FAMILY */
+
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700&amp;lang=en);
+
+.work-sans {
+  font-family: "Work Sans", georgia, serif;
+}
+
+/* FORMS */
+
+*:focus {
+  outline: none;
+}
+
+/* PLACEHOLDERS */
+
+::placeholder {
+  color: var(--silver);
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: var(--silver);
+}
+
+::-ms-input-placeholder {
+  color: var(--silver);
+}
+
+/* MARGIN PERCENTAGE */
+
+.mlp5 {
+  margin-left: 5%;
+}
+
+.mlp25 {
+  margin-left: 25%;
+}
+
+.mrp25 {
+  margin-right: 25%;
+}
+
+
+/* RESPONSIVE */
+
+@media screen and (min-width: 30em) {
+  .mlp5-ns {
+    margin-left: 5%;
+  }
+  .mlp25-ns {
+    margin-left: 25%;
+  }
+  .mrp25-ns {
+    margin-right: 25%;
+  }
+}
+
+@media screen and (min-width: 30em) and (max-width: 60em) {
+  .mlp5-m {
+    margin-left: 5%;
+  }
+  .mlp25-m {
+    margin-left: 25%;
+  }
+  .mrp25-m {
+    margin-right: 25%;
+  }
+}
+
+@media screen and (min-width: 60em) {
+  .mlp5-l {
+    margin-left: 5%;
+  }
+  .mlp25-l {
+    margin-left: 25%;
+  }
+  .mrp25-l {
+    margin-right: 25%;
+  }
+}
